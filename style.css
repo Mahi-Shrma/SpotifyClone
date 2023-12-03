@@ -1,0 +1,132 @@
+body{
+    display: flex;
+    background-color: var(--dark);
+    color: var(--light) !important;
+}
+:root{
+    --dark:#000;
+    --light-gary:rgb(36, 36, 36);
+    --dark-gray:rgb(33, 33, 33);
+    --gray-text:rgb(159, 159, 159);
+    --light:rgb(255, 255, 255);
+}
+header {
+    position: fixed;
+    /* top: 0;
+    width: 100%; */
+    display: flex;
+    flex-direction: column;
+    width:290px;
+    height:100%;
+    /* justify-content: space-around; */
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-bottom: -10px;
+    margin-top: 0px;
+}
+.nav-links,.playlist{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    /* height:100px; */
+    margin-bottom: 0px;
+    margin-top:0px;
+}
+.homeimg{
+    width:15%;
+    display: flex;
+    gap:20px;
+}
+.list{
+    width:100%;
+    /* height:100px; */
+    font-size: 1rem;
+    Font-style:DM Sans;
+    Font-Weight:400;
+    font-Size:15px;
+    Line-height:20px;
+}
+.box1{
+    background-color: white;
+    height:35px;
+    width:15%;
+}
+.box3{
+    background-color: #004638;
+    width:15%;
+    height:35px;
+}
+.playlist p{
+    padding-left:20px ;
+    margin-top: 5px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-left:290px;
+    width:100%;
+    height: 100%;
+}
+.section-1{
+    background: linear-gradient (180deg, #222222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0) 100%);
+    /* width:100%;
+    height: 100%; */
+    /* width: 1457.1px; */
+    width:1245px;
+    height: 1200.89px;
+    top: -5.39px;
+    left: 287.9px;
+    background-color: #121212;
+    color: white;
+}
+.top{
+    display: flex;
+    gap:20px;
+}
+.arrow1{
+    background-color:black;
+    width:;   
+    border-radius: 25%;
+}
+.section-2{
+    margin-top: 100px;
+    background-color: black;
+    width:75%;
+}
+.Part1{
+    flex-wrap:wrap;
+    display: inline-block;
+    width:462px;
+    height: 100px;
+}
+.section-3{
+    width: 1103.07px;
+height: 664px;
+margin-top: 38px;
+margin-left:52px;
+border: 1px solid #000000;
+background-color: #000000;
+}
+.col{
+    border-radius: 5%;
+    background-color: #161313;
+}
+.bottom_bar{
+    width: 100%;
+    height:100px;
+    background-color:transparent;
+    color: aliceblue;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 640px;
+}
+.bar{
+    position: fixed;
+    background-color: #222222;
+    width:100%;
+}
+.player img{
+    width:40px;
+    height: 40px;   
+}
